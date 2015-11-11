@@ -1,0 +1,121 @@
+#printable {
+    text-align: center;
+    -webkit-print-color-adjust: exact;
+}
+.print-params {
+    padding-top: 15px;
+    max-width: 18cm;
+}
+#header {
+    border: solid 1px black;
+    width: 100%;
+    height: 1.5cm;
+    font-size: 13px;
+}
+#brasao{
+    display:inline;
+    padding-top: 5px;
+    float: left;
+    padding-left: 5px;
+    width: 10%;
+}
+#texto-header{
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+    padding-top: 5px;
+    float: left;
+    margin-left: 0%;
+}
+.info-cadastro {
+    border: solid 1px black;
+    width: 100%;
+}
+.texto-retorno{
+    font-weight: bold;
+    width: 25%;
+}
+.texto-retorno2{
+    font-weight: bold;
+    width: 20%;
+}
+.texto-retorno3{
+    font-weight: bold;
+    width: 33%;
+}
+.titulo{
+    width: 25%;
+    text-align: center;
+}
+.titulo2{
+    width: 20%;
+    text-align: center;
+}
+.titulo3{
+    width: 33%;
+    text-align: center;
+}
+.tbl{
+    width: 100%;
+}
+.mapA1{
+    width: 100%;
+    height: 300px;
+    border: solid 1px black;
+    padding-top: 300px;;
+  //  z-index: 999;
+ //   page-break-after: always;
+    page-break-before: always;
+    -webkit-print-color-adjust: exact;
+}
+.header-cadastral{
+    border: solid 1px black;
+    width: 100%;
+    height: 0.6cm;  
+    background-color: #cccccc;
+    font-weight: bold;
+    text-align: left;
+}
+table{
+  //      page-break-after: always;
+ //   page-break-before: always;
+}
+.info-lote {
+    border-bottom: solid 1px black;
+    width: 98%;
+    margin-left: 5px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 2px;
+}
+.info-lote-detalhe{
+    margin-top: 2px;
+    width: 98%;
+    margin-left: 5px;
+    text-align: left;
+}
+.negrito{
+    font-weight: bold;
+}
+.tbl-3-colunas{
+    width: 33%;
+}
+.tbl-2-colunas{
+    width: 50%;
+}
+.tabulada{
+    margin-left: 5px;
+}
+
+@media print{
+    #map{-webkit-print-color-adjust: exact;} 
+    #not-printable{display: none;}
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}

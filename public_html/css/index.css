@@ -1,0 +1,665 @@
+
+.left{
+    float : left;
+}
+
+.right {
+    float : right;
+}
+#esquerda{
+    width: 30%;
+}
+.conteudo{
+    width : 100%;
+    height:  100%;
+    background-color: #f2f2f2;
+}
+#roow{
+    width: 60%;
+    margin-left:  23%;
+}
+.fale-conosco > button > img{
+    display: inline-block;
+    width: 28px !important;
+}
+
+.fale-conosco > button > small{
+    display: block;
+}
+
+.observacao{
+    width: 100%; 
+    height: 130px;
+}
+
+.form-fale-conosco{
+    width: 100%;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.topo{
+    width : 100%;
+    // height: 13%;
+    display: block;
+    border-bottom : darkgray 1px solid;
+}
+.top{
+    vertical-align: top !important;
+}
+.fale-conosco{
+    width : 33.33%;
+    height: 100%;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+
+.topo-conteudo{
+    width: 100%;
+}
+
+.meio {
+    width :100%;
+    height: 79%;
+    float : left;
+}
+
+.mapa{
+    width : 70%;
+    height: 100%;
+    float : left;
+}
+
+.informacoes {
+    padding: 0.5%;
+    width : 30%;
+    height: 100%;
+    float : right;
+    border-left : darkgray 1px solid;
+}
+
+.rodape{
+    padding: 0.5%;
+    border-top : darkgray 1px solid;
+    width: 100%;
+    height: 6%;
+    float: left;
+    background-color: #f2f2f2;
+}
+
+.brasao-sap{
+    float : left;
+}
+
+.brasao-sap > a> img {
+    width: 5.6%;
+    position : absolute;
+}
+.brasao-mg{
+    float : right;
+    margin-right: 10%;
+}
+.brasao-mg > a> img {
+    width: 6%;
+    position : absolute;
+
+}
+.dropdown-menu {
+    right: auto;
+    left: 0;
+    min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+.multi-column-dropdown {
+    list-style: none;
+
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #333;
+    white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+    text-decoration: none;
+    color: #262626;
+    background-color: #f5f5f5;
+}
+
+
+
+.btn > img{
+    width : 18px;
+
+}
+.titulo{   
+    text-align: center;
+    margin-left: 33%;
+    color: gray;
+}
+
+.titulo > span{
+    font-size: 45px;
+}
+
+.subTitulo{
+    width : 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.subTitulo > span{
+    font-size: medium;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.logo-estado > img{
+    width: 8%;
+    position: absolute;
+    top : 1%;
+    left: 91%;
+}
+
+.logo-estado{
+    float : right;
+}
+
+.logo-rodape{
+    float : left;
+    width : 33.33%;
+    text-align: center;
+}
+
+.logo-rodape > img{
+    width: 13%;
+}
+
+.endereco{
+    width : 33.33%;
+    height: 100%;
+    display: block;
+    float: left;
+}
+.endereco{
+    text-align: center;
+    width: 33.33%;
+}
+.fale-conosco{
+    width : 33.33%;
+    height: 100%;
+    display: block;
+    float: right;
+    text-align: center;
+}
+
+.fale-conosco > button > img{
+    display: inline-block;
+    width: 28px !important;
+}
+
+.fale-conosco > button > small{
+    display: block;
+}
+
+.grid-informacoes {
+    width: 100%;
+    height: auto;
+}
+
+.coluna-a{
+    width : 50%;
+    float: left;
+    display: inline-block;
+    height: 100%;
+    padding: 1.4%;
+}
+
+.coluna-b{
+    width : 50%;
+    float: right;
+    display: inline-block;
+    height: 100%;
+    padding: 1.4%;
+}
+
+.conteudo-tab{
+    padding: 1.4%;
+}
+
+.panel-heading > span{
+    font-size: 23px;
+}
+
+.permissoes-uso-atual{
+    padding: 1%;
+    height: 135px;
+    border: darkgray 1px dotted;
+}
+
+.permissoes-uso-revisao{
+    padding: 1%;
+    margin-top : 1.15%;
+    height: 135px;
+    border: darkgray 1px dotted;
+}
+
+.informacoes-endereco{
+    width : 100%;
+    display: inline-block;
+    height: 100%;
+    padding: 1.4%;
+}
+
+.legenda-mapa{
+    position : fixed;
+    display: none;
+    bottom: 123px;
+    margin-left: 1144px;
+    background : darkcyan;
+    opacity : 0.7;
+    border-radius: 20px 20px 20px 20px;
+    padding : 10px 40px 10px 10px;
+    color : #FFFFFF;    
+}
+
+.legenda{
+    font-size:  8px;
+    display: block;
+    font-weight: bold;
+}
+
+.legendas{
+    position: absolute;
+    z-index: 10000000000 !important;
+    display: none; 
+    margin-bottom: 650px;
+    position: absolute;
+    border: 4px solid #18d;
+    top: 20%;
+    left: 5%; 
+    // border-radius: 20px 20px 20px 20px;
+    background : #f2f2f2;; 
+
+    padding: 1em 1em 1em 1em;
+
+ cursor: move;
+}
+.dropdown-menu{
+    cursor: pointer;
+}
+.drop_down{
+    min-width: 50px !important;
+    text-align: center;
+}
+.linha:hover {
+    text-decoration: #000;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    cursor: pointer;
+}
+
+.legendas>tbody>tr{
+    border: 1px solid #18d;
+}
+.legendas>tbody>tr> td,th{
+    //padding: 3em 3em 3em 3em;
+    border: 1px solid #18d;
+}
+
+.item-legendas{
+    display: block; 
+    width : 20px; 
+    height: 20px;
+    padding: 0.3em;
+}
+.itens_legendas{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow:ellipsis;
+    padding-left:  0.3em;
+    padding-right:  0.3em;
+}
+.bairros{
+    background-color: #FF0000;
+}
+
+.quadras{
+    background-color: #0000EE;
+}
+
+.lotes{
+    background-color: #FFCC99;
+}
+
+.rodovias{
+    background-color: #888888;
+}
+
+.avenidas{
+    background-color: #FFFF33;
+}
+
+.ruas{
+    background-color: #009900;
+}
+
+
+.coluna-a > ul > li:nth-child(4n + 3) ,
+.coluna-a > ul > li:nth-child(4n + 1) , 
+.coluna-b > ul > li:nth-child(4n + 3) ,
+.coluna-b > ul > li:nth-child(4n + 1) ,
+.informacoes-endereco > ul > li:nth-child(4n + 1) ,
+.informacoes-endereco > ul > li:nth-child(4n + 3) {
+    background-color : #f2f2f2;
+    width: 100%;
+}
+
+.panel-small{
+    width: 48%;
+}
+
+.blur{
+    -webkit-filter: blur(3px);
+}
+
+.sepia{
+    -webkit-filter: sepia(1);
+}
+
+.loading{
+    display: none;
+    height: 25%; 
+    width: 100%;
+    top: 35%;
+    background-color: #000;
+    opacity: 0.7;
+    position: absolute;
+    z-index: 9;
+}
+
+.loading-heading{
+    float: right;
+    padding-top: 1%;
+}
+
+.loading-body{
+    text-align: center
+}
+
+.loading-body > img{
+    width: 5%;
+    margin-left: 7%;
+    margin-top: 1%;
+}
+
+.loading-body > h2{
+    font-size: 41px;
+    display: block;
+}
+
+.loading > h2{
+    color : #000;
+}
+
+.item-menu{
+    padding: 5%;
+    width: 100%;
+    display: block;
+}
+
+.item-menu > label{
+    font-weight: normal;
+    width: 100%;
+    text-align: left;
+}
+
+
+.item-menu:hover{
+    background-color: #f2f2f2;
+}
+
+.pesquisar{
+    position: absolute; 
+    left:0;
+    display: none;
+    width: 100%;
+    height: 8.5%;
+    z-index: 8;
+    opacity: 0.8;
+}
+
+.pesquisar-body{
+    text-align: center;
+    margin-top: 1%;
+}
+
+.pesquisar-endereco > input , 
+.pesquisar-inscricao > input {  
+    padding : 0.8%;
+    width: 25%;
+    outline: none;
+    border : 0;
+}
+
+.pesquisar-inscricao > button ,
+.pesquisar-endereco > button {
+    padding-top: 0.8%;
+}
+
+.pesquisar-inscricao > button > img,
+.pesquisar-endereco > button > img{
+    margin-bottom : 5px;
+}
+
+.btn-circle{
+    height: 30px;
+}
+.btn-circle>img{
+    height: 100%
+}
+@media screen and (max-width: 1680px) {
+    #roow{
+        width: 72%;
+    }
+    .conteudo{
+        width: 100%;
+        //    height: 964px;
+    }
+
+    .btn-circle{
+        height: 25px;
+
+    }
+
+    .meio{
+        height: 79%;
+    }
+
+    .logo-estado > img{
+        top : 0.5%;
+        left: 90.35%;
+    }
+
+    .panel-heading > span{
+        font-size: 18px;
+    }
+
+    .col-lg-2 > span    ,
+    .col-lg-6 > span    ,
+    .col-lg-4 > span    ,
+    .col-lg-8 > span    ,
+    .col-lg-9 > span    {
+        font-size : smaller;
+    }
+
+}
+
+@media screen and (max-width: 1281px) {
+    .titulo{
+        margin-left: 22%;
+    }
+    .meio{
+        height: 73.5%
+    }
+    #roow{
+        width: 85%;
+        margin-left:  12%;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .conteudo{
+        width: 100%;
+        //   height: 705px;
+    }
+
+    .topo{
+        height: 15%;
+    }
+    .meio{
+        height: 76%;
+    }
+    #roow{
+        width: 100%;
+        margin-left: 5%
+    }
+
+    .legenda{
+        font-size: 9px;
+    }
+    body{
+        font-size: 12px;
+    }
+
+    .logo-estado > img{
+        top : 0.5%;
+        left: 90%;
+        width: 9.80%;
+    }
+
+    .brasao-umuarama > img{
+        position: absolute;
+        top : 0.5%;
+        left: 0%;
+        width: 7.5%;
+    }
+
+    .panel-heading > span{
+        font-size: 16px;
+    }
+
+    .titulo > span{
+        font-size: 30px;
+    }
+
+    .nav-tabs > li > a {
+        font-size: smaller;
+    }
+
+    .col-lg-2 > span    ,
+    .col-lg-6 > span    ,
+    .col-lg-4 > span    ,
+    .col-lg-8 > span    ,
+    .col-lg-9 > span    {
+        font-size : smaller;
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px){
+    #esquerda{
+        width: 40%;
+    }
+    .legendas{   
+        right: 0; 
+        left: 30%;    
+    }
+    .mapa{
+        width: 59%;
+    }
+    .topo{
+        height: 16%;
+    }
+    .meio{
+        height: 75%;
+    }
+    .brasao-sap>img{
+        width: 8%
+    }
+
+    .tabela-cad{
+        text-align: center;
+        font-size: 10px !important;                     
+    }
+    .btn-circle{
+        height: 20px;
+    }
+    .endereco{
+        font-size: 10px;
+    }
+    body{
+        font-size: 11px;
+    }
+}
+
+
+
+
+.wrapper {    
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.form-signin {
+    max-width: 420px;
+    padding: 30px 38px 66px;
+    margin: 0 auto;
+}
+
+.form-signin-heading {
+    text-align:center;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+}
+
+input[type="text"] {
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+
+
+.colorgraph {
+    height: 7px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}

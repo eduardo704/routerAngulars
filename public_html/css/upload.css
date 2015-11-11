@@ -1,0 +1,25 @@
+ .panel-small{
+	width: 50%;
+ }
+
+ .notificacoes > .alert{
+    display: inline;
+    position: absolute;
+    top : 1%;
+    right : 1%;
+        
+    z-index: 9999;
+    
+ }
+
+ .icone{
+   width : 64px;
+   margin-top: -15px;
+ }
+
+ .badge-big{
+  padding: 15% !important;
+  font-size: 20px !important;
+ }
+ 
+ 

@@ -1,0 +1,25 @@
+  <div>
+      <h2 class="label-default">CUSTOMER CONTROLLER</h2>
+            <div>
+                <label>FILTER: </label> <input type="text" ng-model="customerFilter">
+            </div>
+            <div>
+                <table class="table table-bordered table-striped">
+                    <tr>
+                        <th ng-click="doSort('name')">Name</th>
+                        <th ng-click="doSort('city')">City</th>
+                        <th ng-click="doSort('orderTotal')">Order Total</th>
+                        <th ng-click="doSort('joined')">Joined</th>
+                        <th></th>
+                    </tr>
+                    <tr ng-repeat="cust in customers| filter: customerFilter| orderBy:sortBy:reverse">
+                        <td>{{cust.name}}</td>
+                        <td>{{cust.city}}</td>
+                        <td>{{cust.orderTotal | currency:symbol: amount}}</td>
+                        <td>{{cust.joined |  date:'longDate'}}</td>
+                        <td><a href="#/orders/{{cust.id}}"> VIEW ORDERS</a></td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
