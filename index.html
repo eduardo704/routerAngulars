@@ -6,16 +6,21 @@ and open the template in the editor.
 -->
 <html ng-app="customersApp">
     <head>
-        <title>Routing Angular</title>
+        <title>Services Angular</title>
         <meta charset="UTF-8">        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
           <script src="js/libs/angular.js" type="text/javascript"></script>
           <script src="js/libs/angular-route.js" type="text/javascript"></script>
         <script src="app/app.js" type="text/javascript"></script>
+  
         <script src="app/controllers/customerController.js" type="text/javascript"></script>     
-        <script src="app/controllers/ordersController.js" type="text/javascript"></script>    
+        <script src="app/controllers/ordersController.js" type="text/javascript"></script>  
+         <script src="app/services/customersFactory.js"></script>
+         <script src="app/services/customersService.js"></script>
+         <script src="app/services/values.js"></script>
+        
     </head>
     <body>
         <div ng-view></div>

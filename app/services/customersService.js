@@ -1,15 +1,6 @@
 (function() {
-    
-    var CustomersController = function ($scope) {
-        $scope.sortBy = 'name';
-        $scope.reverse = false;
-        
-        $scope.doSort = function(propName) {
-           $scope.sortBy = propName;
-           $scope.reverse = !$scope.reverse;
-        };
-        
-        $scope.customers= [
+    var customersService = function() {
+        var customers = [
             {
                 id: 1, 
                 joined: '2000-12-02', 
@@ -72,11 +63,22 @@
                 ]
             }
         ];
+        
+        this.getCustomers = function() {
+            return customers;
+        };
+        
+        this.getCustomer = function(customerId) {
+            for (var i=0,len=customers.length;i<len;i++) {
+               if (customers[i].id === parseInt(customerId)) {
+                   return customers[i];
+               }
+            }
+            return {};
+        };
+
     };
     
-    CustomersController.$inject = ['$scope'];
-
-    angular.module('customersApp')
-      .controller('CustomersController', CustomersController);
-    
+    angular.module('customersApp').service('customersService', customersService);
+                                           
 }());
