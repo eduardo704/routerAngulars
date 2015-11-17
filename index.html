@@ -1,0 +1,35 @@
+<!doctype html>
+<html ng-app="customersApp">
+<head>
+    <title>Customers/Orders App</title></title>
+    <link href="styles/styles.css" rel="stylesheet" type="text/css" />
+    <link href="styles/bootstrap.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand">Customers/Orders App</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/customers">Customers</a></li>
+                    <li><a href="#/orders">Orders</a></li>
+                </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <div ng-view></div>
+    </main>
+    
+    <script src="scripts/angular.js"></script>
+    <script src="scripts/angular-route.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/customersController.js"></script>
+    <script src="app/controllers/ordersController.js"></script>
+    <script src="app/controllers/allOrdersController.js"></script>
+    <script src="app/services/customersFactory.js"></script>
+    <script src="app/services/values.js"></script>
+</body>
+</html>
