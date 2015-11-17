@@ -25,3 +25,22 @@ main {
     color: red; 
     cursor: pointer;
 }
+
+i{
+    cursor: pointer;
+}
+
+#table-customer{
+    text-align: center;
+    
+}
+
+#conteudo{
+    width: 80%;
+    margin-left: 10%;
+    padding: 15px 15px 15px 15px;
+}
+
+#table-customer >tbody >tr >th{
+    text-align: center;
+}

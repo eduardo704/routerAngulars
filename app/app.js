@@ -1,7 +1,7 @@
 (function() {
-    
+
     var app = angular.module('customersApp', ['ngRoute']);
-    
+
     app.config(function($routeProvider) {
         $routeProvider
             .when('/', {
@@ -16,7 +16,9 @@
                 controller: 'AllOrdersController',
                 templateUrl: 'app/views/allorders.html'
             })
-            .otherwise( { redirectTo: '/' } );
+            .otherwise({
+                redirectTo: '/'
+            });
     });
-    
+
 }());

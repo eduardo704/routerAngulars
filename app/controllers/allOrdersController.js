@@ -1,12 +1,12 @@
 (function() {
-    
-    var AllOrdersController = function ($scope, customersFactory) {
+
+    var AllOrdersController = function($scope, customersFactory) {
         $scope.orders = null;
         $scope.ordersTotal = 0.0;
         $scope.totalType;
-        
+
         function init() {
-             customersFactory.getOrders()
+            customersFactory.getOrders()
                 .success(function(orders) {
                     $scope.orders = orders;
                     getOrdersTotal();
@@ -14,11 +14,11 @@
                 .error(function(data, status, headers, config) {
                     //handle error
                 });
-        }        
-        
+        }
+
         function getOrdersTotal() {
             var total = 0;
-            for (var i=0,len=$scope.orders.length;i<len;i++) {
+            for (var i = 0, len = $scope.orders.length; i < len; i++) {
                 total += $scope.orders[i].total;
             }
             $scope.ordersTotal = total;
@@ -27,10 +27,10 @@
 
         init();
     };
-    
+
     AllOrdersController.$inject = ['$scope', 'customersFactory'];
 
     angular.module('customersApp')
-      .controller('AllOrdersController', AllOrdersController);
-    
+        .controller('AllOrdersController', AllOrdersController);
+
 }());
